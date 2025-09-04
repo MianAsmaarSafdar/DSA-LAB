@@ -186,23 +186,23 @@ int main()
 		}
 		case 4:
 		{
+			s1.display();
+			break;
+		}
+		case 5:
+		{
 			if (s1.isEmpty())
 				cout << "Stack is Empty!" << endl;
 			else
 				cout << "Stack is not Empty!" << endl;
 			break;
 		}
-		case 5:
+		case 6:
 		{
 			if (s1.isFull())
 				cout << "Stack is Full!" << endl;
 			else
 				cout << "Stack is not Full!" << endl;
-			break;
-		}
-		case 6:
-		{
-			s1.display();
 			break;
 		}
 		case 7:
